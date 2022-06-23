@@ -39,5 +39,5 @@ def to_vocabulary(captions):
 def load_dataset(path):
     with open(path, 'r') as file:
         doc = file.read()
-    return [txt.rsplit('.jpg')[0] for txt in doc.split('\n')]
+    return [txt.rsplit('.jpg')[0] for txt in doc.split('\n') if txt!='']
 
