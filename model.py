@@ -21,4 +21,4 @@ class RnnModel:
             if pred_text == 'endseq':
                 break
             desc.append(pred_text)
-        return desc
+        return desc[1:]

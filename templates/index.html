@@ -1,0 +1,24 @@
+
+{% extends 'base.html' %}
+
+
+{% block body%}
+<div class="banner">
+    <h1>What is your image about?</h1>
+</div> 
+<div class="testbox">
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="file_photo">{{text}}</label>
+        <input type="file" name="file" id="file" multiple accept="image/jpeg image/jpg"><br>
+        <input type="submit" value="Upload">
+    </form>
+</div>
+
+<div class="gallery">
+    <p style="text-align:center; font-size:24px;">{{prediction}}</p>
+    <img src="/uploads/41999070_838089137e.jpg" alt="uploaded file" style="width:100%">
+</div>
+
+
+
+{% endblock %}
