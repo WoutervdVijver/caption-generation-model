@@ -1,5 +1,6 @@
 /data/**
 /models/**
+/img/**
 
 final_model/captions.pkl
 final_model/features.pkl

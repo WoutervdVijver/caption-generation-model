@@ -1,7 +1,7 @@
 import numpy as np
-from keras.layers import TextVectorization
-from keras.models import Model
-from keras.utils import pad_sequences
+from tensorflow.keras.layers import TextVectorization
+from tensorflow.keras.models import Model
+from tensorflow.keras.utils import pad_sequences
 from typing import List, Dict, Tuple
 
 
