@@ -72,4 +72,4 @@ if __name__ == "__main__":
     # Threaded option to enable multiple instances for
     # multiple user access support
     # You will also define the host to "0.0.0.0" because localhost will only be reachable from inside de server.
-    app.run(debug=True, host="0.0.0.0", threaded=True, port=port)
+    app.run(host="0.0.0.0", threaded=True, port=port)
