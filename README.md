@@ -4,13 +4,21 @@
 
 The goal of this challenge was to create a deep learning model for caption generations. The dataset provided to me, was the [Flicker8k Dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k). The challenge's duration was about two weeks.
 
+One can find the deployed app at [this link](https://fabulous-caption-app.herokuapp.com/)
+
 ## Installation
 
-Install an environment with the requirements.txt [TO BE ADDED]. Then run the app.py file
+One can run a Docker container with the Dockerfiler. Alternatively, install an environment with the requirements.txt. Then run the app.py file. To run the model_creator notebook one has to additionally run the following code:
+
+`pip install spacy`
+
+`python -m spacy download en_core_web_sm`
+
 
 ## Usage
 
 Run the app.py file. It should then open a browser at [this adress](http://127.0.0.1:4000/). Use the upload button to upload a .jpg file. Then it will print a caption of this model.
+
 
 ## The model
 To make this a learning experience a created a model form scratch inspired by this [tutorial](https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/).
