@@ -1,0 +1,7 @@
+/data/**
+/models/**
+
+final_model/captions.pkl
+final_model/features.pkl
+
+model_creator.ipynb
